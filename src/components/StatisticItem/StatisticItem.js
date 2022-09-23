@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const Statistic = ({ label, percentage }) => {
+export const StatisticItem = ({ label, percentage }) => {
   return (
     <li className="item">
       <span className="label">{label}</span>
@@ -9,7 +9,7 @@ export const Statistic = ({ label, percentage }) => {
   );
 };
 
-Statistic.propTypes = {
+StatisticItem.propTypes = {
   label: PropTypes.string.isRequired,
   percentage: PropTypes.number.isRequired,
 };
