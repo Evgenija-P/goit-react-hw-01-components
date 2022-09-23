@@ -1,3 +1,5 @@
+import { StatisticText } from './StatisticTitle.styled';
+
 export const StatisticTitle = ({ title }) => {
-  return <h2 className="title">{title}</h2>;
+  return <StatisticText>{title}</StatisticText>;
 };

@@ -2,18 +2,19 @@ import PropTypes from 'prop-types';
 
 import { StatisticItem } from 'components/StatisticItem/StatisticItem';
 import { StatisticTitle } from 'components/StatisticTitle/StatisticTitle';
+import { StatisticWrapper, StatisticList } from './Statistic.styled';
 
 export const Statistic = ({ stats, title }) => {
   return (
-    <section className="statistics">
+    <StatisticWrapper>
       {title ? <StatisticTitle title={title} /> : null}
 
-      <ul className="stat-list">
+      <StatisticList>
         {stats.map(({ id, label, percentage }) => (
           <StatisticItem key={id} label={label} percentage={percentage} />
         ))}
-      </ul>
-    </section>
+      </StatisticList>
+    </StatisticWrapper>
   );
 };
 
