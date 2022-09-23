@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import { Statistic } from '../Statistics/Statistic';
 import { StatisticTitle } from 'components/StatisticTitle/StatisticTitle';
 
@@ -13,4 +15,8 @@ export const StatisticList = ({ datas }) => {
       </ul>
     </section>
   );
+};
+
+StatisticList.propTypes = {
+  datas: PropTypes.array.isRequired,
 };
