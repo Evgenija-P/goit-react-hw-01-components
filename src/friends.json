@@ -28,5 +28,23 @@
     "name": "Poly",
     "isOnline": false,
     "id": 1284
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616451.png",
+    "name": "Anna",
+    "isOnline": true,
+    "id": 1234
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616436.png",
+    "name": "Garry",
+    "isOnline": true,
+    "id": 1884
+  },
+  {
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616443.png",
+    "name": "Tommy",
+    "isOnline": false,
+    "id": 1204
   }
 ]

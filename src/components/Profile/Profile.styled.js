@@ -41,6 +41,7 @@ export const StatsItem = styled.li`
   padding-bottom: 10px;
   text-align: center;
   background-color: #f2f2f2;
+  box-shadow: 2px 8px 11px -2px rgba(0, 0, 0, 0.75);
 `;
 
 export const StatsText = styled.span`
