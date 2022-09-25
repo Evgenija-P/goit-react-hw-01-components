@@ -6,5 +6,5 @@ export const StatisticTitle = ({ title }) => {
 };
 
 StatisticTitle.propTypes = {
-  items: PropTypes.string,
+  title: PropTypes.string.isRequired,
 };
